@@ -1,0 +1,16 @@
+body{
+    background-color: aquamarine;
+}
+
+#Over{
+    width: 100px;
+    height: 100px;
+    overflow: auto;
+    /*
+    [overflow-y:scroll] para scroll vertical
+    [overflow-x:scroll]para scroll horizontal
+    hidden
+    visible
+    scroll
+    auto*/
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclases Avanzadas</title>
+    <style>
+
+        
+    /* Pseudo clases */
+    
+    /*Primer elemento */
+    p:first-child{
+        color:blue
+    }
+
+    /* Ultimo elemento */
+    p:last-child{
+        color: red;
+    }
+    
+    /* N elemento -- de arriba hacia abajo*/
+    p:nth-child(2){
+        color:yellow;
+    }
+
+
+    /* N elemento -- de abajo hacia arriba*/
+    p:nth-last-child(2){
+        color: skyblue;
+    }
+
+    /*Elementos pares*/
+    p:nth-child(2n){
+        color:pink;
+    }
+
+    
+    /*Elementos impares*/
+    p:nth-child(odd){
+        color:yellow;
+    }
+
+    /* Elementos N --Especifica cada cuanto se modificara */
+    p:nth-child(6n){
+        color: darkred;
+    }
+    </style>
+</head>
+<body>
+
+    <div class="contenido">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure asperiores dolorem voluptates ducimus, autem id temporibus sequi voluptatibus saepe? Sed cupiditate voluptas, fugit libero at dolores quisquam natus veritatis nemo!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero id dolores aliquam, explicabo libero quidem pariatur, perferendis nostrum neque odit unde, maiores modi cupiditate. Explicabo dolor totam repellat architecto doloremque?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quis corporis rerum at eligendi nesciunt maiores eaque aperiam deleniti molestias qui quaerat tenetur fugiat, earum unde reprehenderit, ad nam nulla.</p>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita cum voluptate illum natus, dolorem dolor, porro molestias perspiciatis suscipit ullam sequi vitae quam magnam deserunt aperiam nostrum inventore beatae facere.</p>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia aspernatur molestiae laboriosam. At maxime officia necessitatibus, doloremque, ducimus voluptas molestias inventore itaque facere magnam ad quod, quae fugit perspiciatis. Reprehenderit!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fugiat officia error ad et, optio obcaecati voluptate perferendis minima magni, accusantium temporibus, possimus officiis totam impedit quis ipsa quaerat quae!</p>
+
+    </div>
+    
+</body>
+</html>

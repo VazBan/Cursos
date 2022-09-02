@@ -1,0 +1,18 @@
+body{
+    background-color: aquamarine;
+}
+.grid{
+    display: grid;
+    grid-template-rows:50px 100px ;
+    /*
+    -- grid-template-rows: especifica la altura de las filas
+    --*/
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /*especifica el ancho de las columnas
+    para especificar el tamaño de estas se puede utilizar diferentes medidas
+    fr,px,em,%
+    */
+}
+.elemento{
+    background-color: blue;
+}

@@ -1,0 +1,17 @@
+body{
+   background-color: aquamarine; 
+}
+
+/* es uso de [position:fixed] es para dejar fijo 
+un parro y asi siepre este visible*/
+p{
+    max-width:350px ;
+    background-color: rgb(135, 135, 187);
+    margin:auto;
+    position: fixed;
+    right:15px ;
+    top: 0px;
+    bottom: 0px;
+
+
+}

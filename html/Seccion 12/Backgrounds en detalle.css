@@ -1,0 +1,50 @@
+body{
+    background-color: #eee;
+}
+.fondo{
+
+    height: 200px;
+    weight:200px
+      /*
+      -modifica la altura del fondo de la etiqueta 
+    */
+
+    background-color: green;
+    background-image: url(http://placekitten.com/600/600);
+    /*
+      -background-image: url:se utiliza para agregar una imagen de fondo
+    */
+
+    background-repeat: no-repeat;
+    /*
+    --no-repeat=no repetir la imagen
+    --repeat-y=repetir imagen en el eje y
+    --repeat-x=repetir en el eje x 
+    */
+    background-position: ;
+    /*
+    -right bottom:esquina  abajo derecha
+    -right top: esquina superior derecha
+    -left bottom: esquina inferior izquierda
+    -left top: esquina superior izquierda
+    */
+    background-attachment:scroll;
+    /*
+    -fixed:el contenido se mueve  pero la imagen no al hacer scroll
+    -scroll: el contenido y la imagen se mueven al hacer scroll
+    */
+    background-size: cover ;
+    /*
+    -background-size:ajusta el tamano de la imagen
+    -cover:la imagen usa todo el ancho de la pagina
+    */
+     /*
+    se puede editar en una sola etiqueta varias caracteristicas 
+    de la siguiente manera
+
+    --background: green url(http://placekitten.com/200/300) no-repeat 
+    left top scroll ;
+    */
+   
+}
+

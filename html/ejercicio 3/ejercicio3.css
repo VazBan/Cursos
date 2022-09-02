@@ -1,0 +1,41 @@
+body{
+    background-color: darkgrey;
+}
+
+.Caja{
+  background-color: #fff;
+  border-style: solid;
+  border-color: blue;
+  border-width: 1px;
+  border-top: solid 0px;
+}
+
+.Cabecera{
+    padding: 10px;
+}
+
+ .Contenido{
+    padding: 10px;
+    border-top: 1px solid blue;
+    }
+
+    
+ .boton{
+    padding: 10px;
+    border-top: 1px solid blue;
+    }
+
+.Aceptar{
+    background-color: blue;
+    color: #fff;
+    border: 0px;
+        padding: 5px;
+
+}
+.Cancelar{
+    background-color:#aaa;
+    color: #fff;
+    border: 0px;
+        padding: 5px;
+
+}

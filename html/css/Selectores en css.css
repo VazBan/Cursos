@@ -1,0 +1,20 @@
+/*en CSS se utulizan los selectores que son las instrucciones para seleccionar las etiquetas de html*/
+
+body{
+    
+    /*"background" cambiar de color el fondo de la pagina*/
+    background-color:#efefef;
+    
+}
+/* "#" -Cambiar de color un parrafo en especifico citando como se nombro en html
+       -Se usa para seleccionar elementos por si "id" asignado en html*/
+
+#parrafo{
+    color: #00fff7;
+}
+/* "." -Cambiar de color varios parrafos declarados en html en un mismo grupo o clase citandolo como se nombro en html*
+       -Seleccionar elementos por su "CLASE" asignado en html*/
+
+.etiqueta {
+    color:rgb(4, 0, 255);
+}

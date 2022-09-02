@@ -1,0 +1,41 @@
+body{
+    background-color:rgb(100, 100, 101)
+}
+
+.caja{
+    background-color: white;
+    border-color: rgb(9, 4, 4);
+   border-style: solid;
+    border-width: 1px;
+    border-top: none;
+    
+}
+.cabecera{
+    border-bottom: 1px solid black;
+    padding: 10px;
+
+}
+.contenido{
+    border-bottom:1px solid black ;
+    padding: 10px;
+}
+.boton{
+    padding: 5px;
+
+
+}
+.Aceptar{
+    
+    background-color: blueviolet;
+    border-width: 1px;
+    border-color: chartreuse;
+    border-style: outset;
+    color: white;
+}
+.Cancelar{
+    
+    background-color: rgb(54, 6, 99);
+    border-width: 1px;
+    border-color: rgba(242, 255, 0, 0.951);
+    border-style: outset;
+    color: white;

@@ -1,0 +1,42 @@
+body{
+    background-color: aquamarine;
+}
+
+/* ejercicio para agregar estilo a una lista para que aparesca como barra de navegacion*/
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:rgba(51, 46, 46, 0.766) ;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+li:hover{
+    background-color: rgba(234, 234, 16,0.6);
+}
+
+.active{
+    background-color:rgb(225, 8, 8);
+    color: black;
+}
+.Active{
+    color: black;
+}
+
+
+.content{
+    margin-top: 55px;
+}

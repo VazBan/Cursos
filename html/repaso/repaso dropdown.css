@@ -1,0 +1,43 @@
+body{
+    background-color: aquamarine;
+    margin: 0;
+}
+
+.boton{
+    background-color: black;
+    color:white;
+    border: none;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.6);
+}
+.caja{
+    position: relative;
+    display: inline-block;
+    
+}
+.contenido{
+    position:absolute;
+    display: none;
+    background-color: white;
+    min-width: 180px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.6);
+}
+ .contenido a{
+     display: block;
+     text-decoration: none;
+     color: black;
+     padding: 16px 32px;
+
+ }
+ .caja:hover .boton{
+     background-color: blue;
+ }
+ 
+ .contenido a:hover{
+     background-color: blueviolet;
+ }
+ .caja:hover .contenido{
+     display: block;
+ }

@@ -1,0 +1,23 @@
+body{
+    background-color: aquamarine;
+}
+
+/* [ul] se usa para modificar o dar estilos al contenido de esta*/
+ul{
+    /* [list-style-type:] se usa para modificar o cambiar estilos 
+    a las vinetas de la lista*/
+    list-style-type: none;
+    background-color: white;
+    border: 1px solid rgba(34, 128, 96, 0.86);
+    border-radius: 4px;
+    padding-left: 0;
+
+}
+ /* [li] se usa para modificar o cambiar estilos 
+    a los elementos de esta*/
+li{
+    border-bottom: 1px solid rgba(34, 128, 96, 0.86);
+    padding: 15px;
+
+}
+    

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PseudoElementos</title>
+
+    <style>
+        /*Pseudo Elementos-- Se aplica con :: */
+
+        /*genera contenido antes */
+        span::before{
+            content: '*';
+            font-size: 30px;
+        }
+
+        /*genera contenido despues*/
+        span::after{
+            content: 'Texto generado';
+            color: blue;
+        }
+
+        /*Editar texto */
+        p::first-letter{
+            font-size: 45px;
+        }
+
+        p::first-line{
+            color: red;
+        }
+        /*Listas */
+        ul li::marker{
+            color: yellow;
+        }
+
+        /*Place Holder */
+        input::placeholder{
+            color:crimson;
+            font-size: 19px;
+        }
+
+
+
+    </style>
+
+</head>
+
+<body>
+    <span></span>  
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quae culpa, similique iste sapiente a architecto porro, temporibus laborum obcaecati delectus nesciunt impedit consectetur, dolorum sint vel in iusto nihil.</p>
+
+    <ul>
+        <li>elemetno</li>
+        <li>elemetno</li>
+        <li>elemetno</li>
+        <li>elemetno</li>
+    </ul>
+
+    <input type="text" placeholder="pon tu nombre">
+</body>
+</html>

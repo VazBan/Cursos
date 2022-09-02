@@ -1,0 +1,53 @@
+body{
+    background-color: lightskyblue;
+}
+
+a{
+    color: black;
+
+    background-color: rgb(7, 21, 180);
+    /* se usa para agregar  color al link*/
+
+    border: 1px solid rgba(11, 11, 235, 0.882);
+
+    padding: 3px;
+
+    margin: 3px;
+
+    border-radius: 2px;
+    
+
+}
+
+a:link{
+    /* se usa para agregar estilo al link que aun 
+    no a sido visitado*/
+    color:yellow;
+
+    text-decoration: none;
+}
+
+a:visited{
+    /* se usa para agregar estilo al link que ya se
+     a visitado*/
+    color:rgb(207, 240, 209);
+    
+}
+
+a:hover{
+    /* se usa para agregar estilo 
+    al link al pasar el cursor sobre el*/
+    color: rgb(247, 243, 243);
+    text-decoration: underline;
+
+    background-color: rgba(8, 6, 94, 0.81);
+     /* se usa para agregar otro color cada vez
+     que se ponga el cursor sobre de el link*/
+}
+
+a:active{
+     /* se usa para agregar estilo 
+    al link al mantenerlo precionado */
+    color: black;
+    text-decoration: underline;
+}

@@ -1,0 +1,15 @@
+body{
+    background-color: aquamarine;
+}
+.grid{
+    display: grid;
+    /*
+    display:grid todos los div que se encuentren dentro de la caja o clase seran afectados
+    por la etiqueta
+    inline-grid solo utiliza el espacio necesario del contenido en la etiqueta
+    grid- utilizara todo el ancho de la etiqueta aunque no sea necesario
+    */ 
+}
+.elemento{
+    background-color: rgb(207, 84, 84);
+}

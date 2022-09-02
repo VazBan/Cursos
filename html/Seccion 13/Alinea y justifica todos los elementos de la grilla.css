@@ -1,0 +1,37 @@
+body{
+    background-color: aliceblue;
+}
+.grid{
+    display: grid;
+    grid-template-areas: "header header"
+                         "contenido sliderbar"
+                         "footer footer";
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 150px 1fr 120px;  
+    grid-auto-rows: 140px; 
+    justify-items: stretch;
+    /*
+     justify-items:  aliniar los elementos en el eje horizotal
+     -center:colocara los elementos en el centro en el eje horizontal
+     -start:coloca los elementos a la izquierda en el eje horizontal y solo ocupa el espacio de su contenido
+     -end:coloca los elementos a la derecha en el eje horizontal
+     -stretch:estira los elementos para utilisen todo el alto y el ancho                     
+     */
+     align-items:stretch ;
+      /*
+     align-items:  aliniar los elementos en el eje vertical
+     -center:colocara los elementos en el centro en el eje vertical
+     -start:coloca los elementos a la izquierda en el eje vertical y solo ocupa el espacio de su contenido
+     -end:coloca los elementos a la derecha en el eje vertical
+     -stretch:estira los elementos para utilisen todo el alto y el ancho                     
+     */
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}

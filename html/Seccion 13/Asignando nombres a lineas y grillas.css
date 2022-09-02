@@ -1,0 +1,30 @@
+body{
+    background-color: aliceblue;
+}
+.grid{
+    display: grid;
+    grid-template-rows:[row-1-fila1]100px [row-2-fila2]100px [row-3-fila3]100px  ;
+    /*
+    [row-1-fila1]100px 
+    se utiliz para asignarle un nombre a cada fila y sea mas facil identificarlas
+      * [] dentro de los parentesis se asigna la fila "row-1"
+      * El nombre que se le asiganara "fila1" 
+      * y el tamaño "100px" 
+      */
+    grid-template-columns:[col-1-col1]1fr [col-2-col2] 1fr [col-3-col3] 1fr [col-4-col4] 1fr [col-5-col5] 1fr [col-7-col7] 1fr;
+    /*
+    [col-1-col1]1fr 
+    se utiliz para asignarle un nombre a cada columna y tambien tamaño y sea mas facil identificarlas
+      * [] dentro de los parentesis se asigna la columna "col-1"
+      * El nombre que se le asiganara "col1" 
+      * y el tamaño "1fr" 
+      */
+    grid-gap: 15px;
+}
+.elemento{
+    background-color: orange;
+}
+.header{
+    grid-row: row-1-fila1/row-3-fila3;
+   grid-column: col-1-col1/ col-6-col6;
+}

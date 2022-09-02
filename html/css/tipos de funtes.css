@@ -1,0 +1,26 @@
+body{
+    background-color: aqua;
+}
+.parrafo{
+
+    font-family: arial;
+    /*se utilisa para cambiar el tipo de letra dentro 
+    de un parrado deseado*/
+
+    font-weight: 950;
+    /* cambiar el ancho de la fuente-letra*/
+
+    font-style: oblique;
+     /* cambiar el estilo de la fuente*/
+     font-size: 14px;
+     /* cambiar el tamano de la fuente-letra*/
+
+
+
+    color: rgb(36, 30, 15);
+    text-align:left ;
+    text-indent: 40px;
+    line-height: 1.7;
+    word-spacing: 10px;
+    text-shadow: 1px 2px 2px blue;
+}

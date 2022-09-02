@@ -1,0 +1,19 @@
+body{
+    background-color: aquamarine;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4 ,100px);
+    grid-template-rows: repeat(6,65px);
+    
+    grid-gap: 12px 25px;
+    /* modifica el espacio entre las fila y tambine entre las columnas
+      grid-gap: 12px,10px;
+      --12px modifica el espacio entre las filas
+      --25px modifica el espacio entre las columnas
+      --grid-gap:12px; modifica a la misma medida los espacio entre columnas y filas
+      */
+}
+.elemento{
+    background-color: orange;
+}

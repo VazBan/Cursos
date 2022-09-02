@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores Basicos</title>
+    <!--Agregaremos los estilos en esta parte por esta ocacion para poder manipular mas facil
+        los cambios en css--->
+    <style>
+        /*Selector por etiquetas */
+        h1{
+            color:blue;
+        }
+
+        /*Selector por id*/
+        #miparrafo{
+            color:red;
+        }
+
+        /*Selector por clase*/
+        .parrafo{
+            color: orange;
+        }
+        .parrafo2{
+            background: green;
+        }
+
+        /*Clases agrupadas
+        Solo se modifican los elemetos que contengan las clases nombradas*/
+        .parrafo.parrafo2{
+            font-size: 50px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <h1>Este es un titulo</h1>
+
+    <p class="parrafo parrafo2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eveniet quasi esse. Id inventore, laborum laudantium nobis quibusdam voluptates labore consequuntur architecto delectus minus. Earum veritatis minima adipisci obcaecati placeat.</p>
+
+    <p id="miparrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eveniet quasi esse. Id inventore, laborum laudantium nobis quibusdam voluptates labore consequuntur architecto delectus minus. Earum veritatis minima adipisci obcaecati placeat.</p>
+
+    <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eveniet quasi esse. Id inventore, laborum laudantium nobis quibusdam voluptates labore consequuntur architecto delectus minus. Earum veritatis minima adipisci obcaecati placeat.</p>
+
+    <p class="parrafo2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eveniet quasi esse. Id inventore, laborum laudantium nobis quibusdam voluptates labore consequuntur architecto delectus minus. Earum veritatis minima adipisci obcaecati placeat.</p>
+
+    <!--Se puede agregar mas de 2 clases a cada elemento para convinar estilos -->
+    <p class="parrafo parrafo2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eveniet quasi esse. Id inventore, laborum laudantium nobis quibusdam voluptates labore consequuntur architecto delectus minus. Earum veritatis minima adipisci obcaecati placeat.</p>
+
+    
+</body>
+</html>

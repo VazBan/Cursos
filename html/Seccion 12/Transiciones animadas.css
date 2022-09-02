@@ -1,0 +1,39 @@
+body{
+    background-color: aquamarine;
+}
+.caja{
+    background-color: white;
+    position: relative;
+    left: 50px;
+    top: 25px;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+
+    /*
+     -transition es para asignar cuanto tiempo queremos que dure una transicion y que lado lo ara
+      -se especifica el lado que tendra la transicion y el tiempo de duracion
+     */
+      transition:0.6s;
+      transition-delay: 0.12s;
+      /* 
+      -width 0.3s              la animacion sera en el ancho o eje x y durara 0.3s
+      -height 0.3s             la animacion sera a lo largo o eje y durara 0.3s
+      -transition:0.3s         la animacion afectara a todos los lados y durara 0.3s
+      -transition-delay:0.2s   define el tiempo tardara en hacer la animacion 
+
+      tambien se puede definir en la misma etiqueta la duracion y el retraso que tendra la animacion o transicion
+      -transition:0.3s 0.1s     
+        -0.3s duracion de la transicion
+        -0.1s tiempo que tardara en hacer la transicion 
+       */
+
+}
+.caja:hover{
+    
+    /*
+   se usa transform:scale para poder agregar el efecto de zoom a la etiqueta
+     */
+   transform: scale(1.05,1.05);
+   background-color: rgba(0, 0, 0, 0.1);
+}

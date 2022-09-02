@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(249, 249, 252);
+}
+
+.parrafo{
+    color: rgb(0, 15, 0);
+
+    text-align:left;
+     /* text-align se utiliza para elegir la orientacion del texto
+    con : 
+    center , right, left, justify
+    */
+   
+    text-indent:40px;
+    /*Es para desplazar el primer parrafo hacia la derecha
+    un numero de pixeles deseados*/
+    
+    line-height:1.6 ;
+     /*permite modificar la separacion entre los 
+     parrafos en un texto deseado*/
+     
+    word-spacing: 10px;
+     /*permite modificar la separacion entre las 
+     palabras en un parrafo deseado*/
+     
+     text-shadow:5px 2px 2px rgba(4, 123, 8, 0.753) ;
+       /*permite agragar sobras al texto del 
+       parrafo deseado mediante la configuracion
+       5px=que tanto se desplaza el texto a la derecha
+       2px=que tanto se desplaza hacia abajo
+       5px=que tan difuminado se vera la sombra
+       y al finnal el color de la sombra deseado
+       */
+}
+a{
+    text-decoration: none;
+     /*permite agregar decoracion a un  link
+     -none= ninguna
+     -overline=linea sobre el texto
+     -line through=line en media del texto
+     -underline=linea debajo del texto
+     */
+     text-transform:capitalize ;
+     /*permite modificar con
+     -uppercase=todo el texo en mayuscula.
+     -lowercase=todo el texto en minusculas.
+     -capitalize=Pone la primera en mayuscula
+     */
+     letter-spacing: 3px;
+     /*permite modificar la separacion entre las 
+     letras en un texto deseado*/
+}

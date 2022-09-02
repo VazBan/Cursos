@@ -1,0 +1,15 @@
+body{
+    background-color: rgba(183, 188, 186, 0.784);
+}
+
+
+#ejemplo {
+     
+    /*Elementos con propiedades para volver invisible*/
+display: none;
+}
+
+/*display permite cambiar las propiedades de span y su contenido*/
+span{
+    display: block;
+}

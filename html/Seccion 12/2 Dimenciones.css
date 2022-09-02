@@ -1,0 +1,25 @@
+body{
+    background-color: #7fffd4 ;
+}
+.caja{
+    position: relative;
+    left: 50px;
+    top: 25px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.7);
+
+    
+    transform: skew(-55deg);
+    /*
+    -rotate(20deg) gira nuestra etiqueta los grados que se le indiquen
+    -translate(50px, 10px) 50px se mueva en el eje x / 10px se mueva en el eje y
+    -scale(0.9, 0.9) que escala creecera nuesta etiqueta en %
+    -scaleY(0.9) escala creecera en Y
+    -scaleY(0.9) escala creecera en x
+    -skew(25deg, 10deg) 
+     - 25deg es la inclinacion en el eje x
+     - 10deg es la inclinacion en el eje y
+    
+}

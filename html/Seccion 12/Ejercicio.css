@@ -1,0 +1,36 @@
+body{
+    background-color: white;
+}
+.caja{
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    margin: 10px 12px;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+    transition: 0.3s 0.1s;
+    border-radius: 2px;
+}
+.red{
+    border-left:2px solid red;
+    
+}
+.green{
+    border-left:2px solid green;
+}
+.blue{
+    border-left: 2px solid blue;
+}
+
+.red:hover{
+    transform: scale(1.08,1.08);
+}
+.green:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+
+}
+.blue:hover{
+    background-color: grey;
+}

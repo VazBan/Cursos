@@ -1,0 +1,28 @@
+body{
+    background-color: aliceblue;
+}
+.grid{
+    display: grid;
+    grid-template-areas: "header header"
+                         "contenido sliderbar"
+                         "footer footer";
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 150px 1fr 100px;      
+    grid-auto-rows: 140px;      
+    /*
+    grid-auto-rows: 140px;
+    se utiliza para definir la altura de las filas automaticamente 
+    que no entren dentro de la grilla explicita
+    */
+    grid-auto-flow: row;
+    grid-gap: 12px;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}

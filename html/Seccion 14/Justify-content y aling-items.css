@@ -1,0 +1,72 @@
+body{
+    background-color: aliceblue;
+}
+.flex{
+    width: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between ;
+    /*
+
+    justify-content:  Modifica la posicion del contenido dentro del espacio del contenedor flex en el eje Vertical Y
+    -flex-start       las filas y el contenido se va hacia la izquierda
+    -flex-end         las filas y el contenido se va hacia la derecha
+    -center           El contenido se aliniea al centro 
+    -space-between    Genera espacios iguales entre el contenido excepto al inicio y al final 
+    -space-around     Genera espacios  entre el contenido lo doble de grande que al inicio o al final 
+    -space-evenly     Genera espacios iguales entre todo contenido 
+    */
+
+    align-items:flex-end ;
+    /*
+    align-items: Modifica la posicion del contenido dentro de su propio espacio en el eje Horizontal X
+    -flex-start  El contenido se desplaza hacia arriba de su espacio designado y solo utiliza lo necesario 
+    -flex-end    El contenido se desplaza hacia abajo  de su espacio designado y solo utiliza lo necesario 
+    -center      El contenido se aliniea al centro en su espacio designado y solo utiliza lo necesario 
+    -stretch     Estira los elementos para que utilizen todo su espacio asignado
+*/
+align-content: 
+/*
+align-content:        Modifica la posicion del contenido dentro del espacio del contenedor flex en el eje Horizontal X
+    -flex-start       Todo el contenido se va hacia la izquierda del contenedor 
+    -flex-end         Todo el contenido se va hacia la derecha del contenedor 
+    -center           El contenido se aliniea al centro del contenedor
+    -space-between    Genera espacios iguales entre el contenido excepto al inicio y al final del contenedor
+    -space-around     Genera espacios  entre el contenido lo doble de grande que al inicio o al final del contenedor
+    -space-evenly     Genera espacios iguales entre todo contenido del contenedor
+    */
+
+}
+
+.a{
+    background-color: red;
+}
+.b{
+    background-color: blue;
+}
+.c{
+    background-color: yellow;
+}
+.d{
+    background-color: green;
+}
+.e{
+    background-color: orange;
+}
+.f{
+    background-color: purple;
+}
+.g{
+    background-color: cyan;
+}
+.h{
+    background-color: brown;
+}
+.i{
+    background-color: darksalmon;
+}
+.j{
+    background-color: limegreen;
+}
+.flex{
+    background-color: cadetblue;

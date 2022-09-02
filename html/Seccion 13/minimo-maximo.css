@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+}
+.grid{
+    display:grid;
+    grid-template-rows: repeat(3,80px);
+    /*minmax( )se usa para establecer el tamaño minimo y maximo de cada un de las filas */
+    grid-template-columns:  repeat(2,155px)   ;
+    /*minmax( )se usa para establecer el tamaño minimo y maximo de cada una de las  columnas*/
+        
+}
+.elemento{
+    background-color: orange;
+}

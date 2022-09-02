@@ -1,0 +1,42 @@
+body{
+    background-color: aliceblue;
+}
+.grid{
+    display: grid;
+    grid-template-areas:"header header"
+                        "contenido slidebar"
+                        "footer footer" ;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 200px 1fr 150px;
+}
+
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.item-1{
+    justify-self: center;
+    /*
+     justify-self:  aliniar 1 elemento en el eje horizotal
+     -center:colocara 1 elemento en el centro en el eje horizontal
+     -start:coloca 1 elemento  a la izquierda en el eje horizontal y solo ocupa el espacio de su contenido
+     -end:coloca 1 elemento  a la derecha en el eje horizontal
+     -stretch:estira 1 elemento  para que utilise todo el alto y el ancho                     
+     */
+    align-self: center;
+      /*
+     align-self:  aliniar 1 elemento en el eje vertical
+     -center:colocara 1 elemento en el centro en el eje vertical
+     -start:coloca 1 elemento  hasta arriba el eje vertical y solo ocupa el espacio de su contenido
+     -end:coloca 1 elemento  hasta abajo en el eje vertical
+     -stretch: estira 1 elemento  para que utilise todo el alto y el ancho                     
+     */
+}
+.caja{
+    background-color: blue;
+}

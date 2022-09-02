@@ -1,0 +1,28 @@
+body{
+    background-color: aquamarine;
+}
+
+table{
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color: rgba(181, 19, 19, 0.744);
+}
+
+table th{
+    background-color: chocolate;
+    color: white;
+    text-align: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+td {
+    border: 1px solid blue;
+    padding: 8px;
+}

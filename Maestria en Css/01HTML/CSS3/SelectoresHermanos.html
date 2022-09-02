@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores Hermanos</title>
+    <style>
+        /*Selectores Hermanos*/
+        
+        /* Hermano General*/
+        /* Todas las etiquetas  que se encuentren al mismo nivel*/
+        /* Modificar todos los "span" que esten al nivel de h1 dentro del contenedor "articulo" */
+        .articulo h1~span {
+            background-color: grey;
+        } 
+
+        /*Hermanos adyacentes*/
+        /*Todas las etiquetas "span" que se encuentren aun lado del h1*/
+        .articulo h1 + span{
+            background-color: orange;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+        <div class="contenido">
+            <div class="articulo">
+
+                <h1>Titulo</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium placeat debitis, quasi incidunt expedita aut fugit? Corrupti a fugit veritatis rem quis qui quibusdam et sed, illum maiores fugiat repellendus!</p>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+
+            </div>
+
+            <div class="articulo">
+
+                <h1>Titulo</h1>
+
+                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium placeat debitis, quasi incidunt expedita aut fugit? Corrupti a fugit veritatis rem quis qui quibusdam et sed, illum maiores fugiat repellendus!</span>
+                
+                <br>
+                <a href="">Enlace</a>
+                <br>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+
+            </div>
+        </div>
+    </div>
+
+    
+
+    
+</body>
+</html>

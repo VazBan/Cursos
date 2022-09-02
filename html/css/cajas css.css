@@ -1,0 +1,15 @@
+body{
+    background-color: rgba(121, 117, 117, 0.827);
+}
+.caja{
+    margin: 16px;
+    padding: 4px;
+    border-style:;
+    border-width: 2px;
+    border-color: darkgoldenrod;
+    background-color: #00f;
+    border-radius: 16px;
+    height: 100px;
+    width: 100px;
+    color: #fae;
+}

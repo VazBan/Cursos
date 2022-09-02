@@ -1,0 +1,48 @@
+body{
+    background-color: aliceblue;
+}
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+    width: 80px;
+    height: 200px;
+    background-color: gray;
+    flex-flow: row wrap;
+    justify-content:start;
+    align-items:flex-start;
+
+}
+.a1{
+    order: 6;
+    /*
+     order: Modifica la posicion de cada elemento invidualmente
+     - 0 es el valor inicial de cada elemento y se ordenan tomando en cuanto cual se creo primero
+     - al asignar un Numero mayor que todos el elemento se posicionara al final de los demas elementos
+     -  al asignar un Numero menor que todos el elemento se posicionara al comienzo de los demas 
+     -el orden se asignara de menor a mayor 
+     */ 
+    background-color: red;
+}
+.a2{
+    order: 5;
+    background-color: blue;
+    flex-grow: 0;
+}
+.a3{
+    order:4;
+    background-color: yellow;
+}
+.a4{
+    order: 3;
+    background-color: darkcyan;
+    flex-grow: 1;
+}
+.a5{
+    order: 2;
+    background-color: crimson;
+    flex-grow: 0;
+}
+.a6{
+    order: 1;
+    background-color: cornflowerblue;
+}

@@ -1,0 +1,18 @@
+body{
+    background-color: aquamarine;
+}
+img{
+    float: right;
+    /*left- right*/   
+}
+/*usar opacity con hover da una sensacion de voton a la imagen
+cuando se le pasa el cursor por ensima com si fuese un boton*/
+img:hover{
+    opacity: .65;
+}
+
+/* se utiliza asi para selecciona parafos especificos
+div p*/
+div p{
+    color:blue
+}

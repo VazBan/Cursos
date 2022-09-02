@@ -1,0 +1,26 @@
+body{
+    width: 200px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    /*
+    -row            El contenido inicia de izquierda a derecha
+    -row-reverse    El contenido inicia de derecha a izquierda
+    -column         El contenido inicia de arriba hacia abajo
+    -column reverse El contenido incia de abajo hacia arriba
+*/
+     flex-wrap:wrap ;
+/*
+   -nowrap          Es la configuracion inicial que deja que se salga el contenido del espacio asignado
+   -wrap reacomoda  el contenido que no cabe en la caja es asignado en otro renglon dentro de la caja 
+   -wrap-reverse    el contenido comiensa de abajo hacia arriba 
+*/
+    flex-flow: row wrap 
+        /*
+    Es un atajo para configurar flex-direction:row; y flex-wrap:wrap ; en una solo linea
+    row es la direccion 
+    wrap 
+
+*/
+}

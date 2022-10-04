@@ -52,6 +52,7 @@ const pedirCarta = () => {
     return carta;
 }
 
+
 //SABER EL VALOR DE LA CARTA QUITANDOLE LAS LETRAS:2H = 2 
 const valorCarta = ( carta ) =>{
     
@@ -82,6 +83,18 @@ const turnoComputadora = ( puntosMinimos ) =>{
 
     }while( ( puntosComputadora < puntosMinimos) && (puntosMinimos <= 21) );
 
+    setTimeout( () => {
+        
+    if (puntosComputadora === puntosMinimos){
+        alert('Nadie Gana, es un empate');
+       
+    }else if( puntosComputadora <= 21 && puntosComputadora > puntosJugador  ){
+        alert('Computadora Gana');   
+    }else if( puntosJugador <= 21 && puntosComputadora > 21  ){
+        alert('Jugador gana'); 
+    }
+}
+,15);
 }
 
 //Eventos 
@@ -91,14 +104,17 @@ btnPedir.addEventListener('click',() => {
     const carta = pedirCarta();
     puntosJugador = puntosJugador + valorCarta(carta);
     puntosHTML[0].innerText = puntosJugador;
-//Mostrar cartas jugador
+
+    //Mostrar cartas jugador
     const imgCarta = document.createElement('img');
     imgCarta.src = `assets/cartas/${ carta }.png`;
     imgCarta.classList.add('carta');
     divCartasJugador.append(imgCarta);
-//Logica de jugador
+
+    //Logica de jugador
     if (puntosJugador > 21 ){
-        console.warn('Lo siento,perdiste')
+        console.warn ('Lo siento,perdiste')
+        alert        ('Computadora Gana')
         btnPedir.disabled   = true;
         btnDetener.disabled = true;
         turnoComputadora(puntosJugador);
@@ -108,21 +124,32 @@ btnPedir.addEventListener('click',() => {
     }
 });
 
+//Boton Detener
 btnDetener.addEventListener('click',() => {
-    
     btnPedir.disabled   = true;
     btnDetener.disabled = true;
     turnoComputadora(puntosJugador);
 });
 
+//Boton Nuevo
 btnNuevo.addEventListener('click',() => {
-    btnNuevo.disabled = true;
-   
-    const NuevoJuego= () =>{
-        puntosHTML[0,1].innerText = 0;
+    console.clear()
+
+    barajaR = crearBaraja() 
+    puntosJugador = 0 ;
+    puntosComputadora = 0 ;
+    puntosHTML[0].innerText = 0 ;
+    puntosHTML[1].innerText = 0 ;
+
+    divCartasComputadora.innerHTML = '' ;
+    divCartasJugador.innerHTML     = '' ;
+  
+    btnPedir.disabled   = false;
+    btnDetener.disabled = false;
+
+
     
     
-    }
 });
 
 

@@ -1,0 +1,32 @@
+/* selector universal */
+body{
+    background: beige;
+}
+
+.contenedor {
+    width: 90%;
+    margin: auto;
+}
+.caja-uno{
+    background: turquoise;
+    font-size: 25px;
+    color: black;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-right:20px; 
+    padding-bottom: 10px;
+    border-top: 15px red solid;
+    border-right: 15px blue solid;
+    border-bottom: yellow 10px solid;
+    border-left: brown 10px solid;
+
+}
+
+.caja-dos {
+    background: brown;
+    color: white;
+    font-size: 25px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: 20px yellowgreen solid ;
+}
